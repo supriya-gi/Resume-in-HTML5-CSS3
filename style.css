@@ -1,0 +1,215 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+.wrapper{
+    box-sizing: border-box;
+}
+.contain{
+  width: 25%;
+  padding: 10px;
+  float: left;
+ box-sizing: border-box;
+}
+.card{
+    box-shadow: 2px 2px 10px 2px #bfbfbf;
+}
+.card img{
+    width: 100%;
+}
+.centered{
+    position: relative;
+    bottom: 43px;
+    left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 1px 1px honeydew;
+    color: wheat;
+}
+.card-head{
+    padding: 15px;   
+    color: rgb(100, 98, 98);
+    font-size: 19px;
+}
+.card-head i{
+    color: #009688;
+}
+.progress {
+   background-color: rgb(238 235 235 / 64%);;
+    /* width: 80%; */
+        border-radius: 15px;
+}
+.skill {
+    background-color: #009688;
+    color: white;
+    text-align: right;
+    font-size: 13px;
+        border-radius: 15px;
+}
+
+.html {
+    width: 95%;
+    text-align: center;
+}
+
+.css {
+    width: 80%;
+    text-align: center;
+}
+.bootstrap{
+    width: 80%;
+    text-align: center;
+}
+.js{
+    width: 60%;
+    text-align: center;
+}
+.jquery{
+    width: 50%;
+    text-align: center;
+}
+.english{
+    width: 90%;
+    text-align: center;
+}
+.hindi{
+    width: 100%;
+    text-align: center;
+}
+.marathi{
+    width: 100%;
+    text-align: center;
+}
+.card-body{
+    padding:0px 20px 10px;
+    color: rgb(100, 98, 98);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.card-info{
+    padding:0px 20px 10px;
+    color: rgb(100, 98, 98);
+    font-size: 13px;
+    margin-top: 5px;
+}
+.card-info div{
+    padding-bottom: 12px;
+}
+.card-info div i{
+    color: #009688;
+    margin-right: 11px;
+}
+button{
+    background-color: #009688;
+    border: 1px solid #009688;
+    color: #ffffff;
+    padding: 5px;
+} 
+
+h3{
+    font-size: 15px;
+    /* color: rgb(100 98 98 / 81%); */
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.project{
+    font-size: 14px;
+    font-family: Tahoma, sans-serif;
+    color:gray;
+    
+}
+.link{
+    font-size: 12px;
+    color: #333131;
+}
+.contain1{
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 75%;
+}
+.card1{
+    box-shadow: 2px 2px 10px 2px #bfbfbf;
+    padding: 20px;
+}
+.card1-head{
+    font-size: 25px;
+    color: rgb(100, 98, 98);
+}
+.card1-head i{
+    color: #009688;
+}
+.card1-body{
+    padding-top: 20px;
+}
+.card1-body p{
+    font-size: 14px;
+    font-family:'Roboto', sans-serif;
+    color: #009688;
+}
+.card1-body li{
+    font-size: 12px;
+    font-family: Tahoma, sans-serif;
+    text-align: justify;
+    color: #333131;
+}
+.card2{
+    box-shadow: 2px 2px 10px 2px #bfbfbf;
+    padding: 20px;
+}
+.card1-body .paragraph{
+    font-family: Tahoma, sans-serif;
+    color: #333131;
+    font-size: 14px;
+}
+@media screen and (min-width:320px) and (max-width:552px){
+    .container{
+        max-width: 100%;
+    }
+    .contain{
+        width: 100%;
+        padding: 2px;
+    }
+    .contain1{
+        width: 100%;
+        padding: 2px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:553px) and (max-width:1024px){
+    .container{
+        max-width: 100%;
+    }
+    .contain{
+        width: 30%;
+    }
+    .contain1{
+        width: 70%;
+    }
+    .card{
+        width: 100%;
+    }
+    .centered{
+        top: -37px;
+        font-size: 21px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .container{
+        max-width: 100%;
+    }
+    .contain{
+        max-width: 25%;
+    }
+    .contain1{
+        max-width: 75%;
+        
+    }
+    .centered{
+        top: -37px;
+        font-size: 21px;
+    }
+}
